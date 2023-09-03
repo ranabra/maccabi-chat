@@ -12,6 +12,13 @@ Note that the server is listening to the client on port 5173 (set in 'index.js' 
 If for some reason the client is running on a different port than 5173, then set accordingly on the server ('index.js').
 
 
+Important note:
+--------------
+Not provided in this Github Git repository is an '.env' file.
+The application will *not* run without this '.env' file!
+If you really need access to the '.env' file, it was already sent to you in advance :)
+
+
 Security
 --------
 Users can register and must be logged-in, in order to use the chat.
