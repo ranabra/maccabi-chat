@@ -8,15 +8,14 @@ To run each project:
 * Client - run "npm run dev"
 * Server - run "npm run start"
 
-Note that the server is listening to the client on port 5173 (set in 'index.js' on the server).
-If for some reason the client is running on a different port than 5173, then set accordingly on the server ('index.js').
 
 
 Important note:
 --------------
-Not provided in this Github Git repository is an '.env' file.
-The application will *not* run without this '.env' file!
-If you really need access to the '.env' file, it was already sent to you in advance :)
+Not provided in this Github Git repository are 2 '.env' files.
+The application will *not* run without these '.env' files!
+They should be placed at the root of both 'Client' and 'Server' folders, respectively.
+If you really need access to the '.env' files, they were already sent to you in advance :)
 
 
 Security
