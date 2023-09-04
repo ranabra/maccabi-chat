@@ -12,7 +12,7 @@ To run each project:
 
 Important note:
 --------------
-Not provided in this Github Git repository are 2 '.env' files.
+Not provided in this Github Git repository are two '.env' files.
 The application will *not* run without these '.env' files!
 They should be placed at the root of both 'Client' and 'Server' folders, respectively.
 If you really need access to the '.env' files, they were already sent to you in advance :)
