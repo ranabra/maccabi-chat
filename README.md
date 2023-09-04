@@ -26,7 +26,7 @@ Also, the server is listening to requests coming from a specific URL and specifi
 Additionally, each request from the client, to post a message on the server, is validated on the server using Oauth 2.0 JWT token (using AppWrite).
 
 
-WhatsApp style, double check-mark message read icons
+*WhatsApp*™ style, double check-mark message read icons
 ----------------------------------------------------
 To detect if the other participants in the chat are active on their end, I am using the latest and most recommended 'Page Visibility API', to check page visibility / focus.
 This is working great but appears to be too sensitive and can create false positives. For example, simply hovering the mouse over the other browser's toolbar icon, activates the Page Visibility API.
