@@ -21,7 +21,7 @@ If you really need access to the '.env' files, they were already sent to you in 
 Security
 --------
 Users can register and must be logged-in, in order to use the chat.
-Also, the server is listening to requests coming from a specific URL and specific port (in this case locally: http://localhost:5173)
+Also, the server is listening to requests coming from a specific URL and specific port (in this case locally: http://localhost:5000)
 Additionally, each request from the client, to post a message on the server, is validated on the server using Oauth 2.0 JWT token (using AppWrite).
 
 
