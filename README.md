@@ -27,7 +27,7 @@ Additionally, each request from the client, to post a message on the server, is 
 
 *WhatsApp*™ style, double check-mark message read icons
 ----------------------------------------------------
-To detect if the other participants in the chat are active on their end, I am using the latest and most recommended 'Page Visibility API', to check page visibility / focus.
+To detect if the other participants in the chat are active on their end, I am using the latest and most recommended 'Page Visibility API', (see here for more info: https://developer.mozilla.org/en-US/docs/Web/API/Page_Visibility_API) to check page visibility / focus.
 This is working great but appears to be too sensitive and can create false positives. For example, simply hovering the mouse over the other browser's toolbar icon, activates the Page Visibility API.
 Another approach will be implemented soon, instead of the recommended 'Page Visibility API', with a less sensitive but equally accurate alternative.
 
