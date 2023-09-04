@@ -1,6 +1,6 @@
 # maccabi-chat
 Basic chat app based on Node.js + React + socket.io + using 'AppWrite' as a Db backend.
-Including a WhatsApp style, double check-mark message read icons.
+Including a *WhatsApp*™ style, double check-mark message read icons.
 
 To install, simply run both Client folder and Server folder, with "npm install" in command terminal.
 
